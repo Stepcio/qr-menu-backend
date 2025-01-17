@@ -11,7 +11,7 @@ class FoodItemController extends Controller
      */
     public function index()
     {
-        //
+        Auth::user();
     }
 
     /**
